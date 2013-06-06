@@ -30,9 +30,10 @@
 
   <!-- Properties -->
   <properties>
-    <version.org.jboss.arquillian.core>1.0.0.CR4</version.org.jboss.arquillian.core>
-    <version.org.jboss.as7>7.0.1.Final</version.org.jboss.as7>
-    <version.org.jboss.logging>3.0.0.GA</version.org.jboss.logging>
+    <jboss.home>${env.JBOSS_HOME}</jboss.home>
+    <version.org.jboss.arquillian.core>1.0.0.Final</version.org.jboss.arquillian.core>
+    <version.org.jboss.as7>7.1.1.Final</version.org.jboss.as7>
+    <version.org.jboss.logging>3.1.2.GA</version.org.jboss.logging>
     <version.org.jboss.logmanager>1.2.0.GA</version.org.jboss.logmanager>
     <version.org.jboss.resteasy.jaxrs>2.2.1.GA</version.org.jboss.resteasy.jaxrs>
     <version.org.jboss.resteasy.mobile>1.0.0</version.org.jboss.resteasy.mobile>
